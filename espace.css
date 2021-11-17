@@ -68,16 +68,16 @@ header nav
 
 .bouton_contact .btn-danger
 {
-    max-width: 200px;
-    padding: 10%;
+    width: 100px;
+    padding: 5%;
 }
 .bouton_contact .btn-danger span
 {
-    max-width: 150px;
+    max-width: 100px;
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: 800;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 22px;
     margin-top: 1%;
 }
