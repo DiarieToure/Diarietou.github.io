@@ -7,7 +7,10 @@
 /*=========================================Le  header*==================================================*/
 
 /*-----------Barre de navigation*/
-
+header 
+{
+    background-color:#fff;
+}
 header nav
 {
     background-color: #fff;
@@ -16,6 +19,7 @@ header nav
     box-shadow: 0px 0.25px 13px rgba(0, 0, 0, 0.13);;
     padding-top: 1.5%;
     margin-bottom: 10px;
+
 
 }
 /*logo*/
@@ -27,6 +31,16 @@ header nav
 .nav-link .collapse
 {
     max-width: 99%;
+}
+.nav-link .collapse span
+{
+    height:30px;
+    margin-top: 0.5%;
+}
+.nav-link .collapse .search
+{
+    background-color: #fff;
+    border: none;
 }
 .nav-link .collapse ul.navbar-nav
 {
@@ -55,7 +69,7 @@ header nav
 .bouton_contact .btn-danger
 {
     max-width: 200px;
-    padding: 8%;
+    padding: 10%;
 }
 .bouton_contact .btn-danger span
 {
