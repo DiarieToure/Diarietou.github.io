@@ -9,137 +9,64 @@
 
 header nav
 {
-    display:flex;
     background-color: #fff;
     color: #000;
     background-color: #fff;
     box-shadow: 0px 0.25px 13px rgba(0, 0, 0, 0.13);;
     padding-top: 1.5%;
     margin-bottom: 10px;
-    justify-content:center;
-    max-width: 99.9%;
 
 }
+/*logo*/
 
-/*nav et icon*/
-
-.top .block_top
+.navbar-brand 
 {
-    display:flex;
-    flex-wrap: wrap;
-    padding-left:150px;
-    align-items: baseline;
-    font-weight: 700;
+    margin-left: 3%;
 }
-header .top img
+.nav-link .collapse
 {
-    position:absolute;
-    width: 207px;
-    height: 63px;
-    margin-left: 15px;
+    max-width: 99%;
 }
-header .block_top ul
+.nav-link .collapse ul.navbar-nav
 {
-    display: inline-flex;
-    margin-bottom: 0em;
-    flex-wrap: wrap;
-    margin:0em;
-    
+    width:99%;
 }
-header .block_top ul li 
+.nav-link .collapse ul li.nav-item
 {
-    list-style: none;
-    padding-right: 70px;
-    line-height: 13px;
-
+    height:54px;
+    width:55%;
 }
-header .block_top ul li a
+.nav-link .collapse ul li.nav-item a
 {
-    color: #000;
-    text-decoration: none;
-    
-}
-header .block_top ul li a p
-{
-    width: 80px;
-    height: 22px;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 16px;
-}
 
-/*barre de recherche*/
-
-div.search
-{
-    width: 20px;
-    height: 20px;
-    margin-right: 20px;
-    margin-left: -35px;
-    margin-top:12px;
-
-}
-div.search img
-{
-    width: 18px;
-    height: 18px;
-
-}
-
-/*partie espace*/
-main{
-    margin: 0em;
-}
-
-#id_espace
-{
-    border-bottom: solid 5px #ce0033;
-    padding-bottom:50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color:#ce0033;
-    font-weight: bold;
-    font-size: 18px;
-    font-family: Nunito Sans;    
-}
-/*btn contact*/
-.langue
-{
-    display: flex;
-    justify-content:flex-end;
-    margin-bottom:8px;
-    margin-left: 8%;
-
-
-}
-
-
-.langue button
-{
-    background-color: #ce0033;
-    color: #fff;
-    width: 87px;
-    height: 32px;
-    border-radius: 25px;
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: 800;
-    font-size: 16px;
-    line-height: 22px;
-    border: #ce0033 solid 1px;
-}
-.langue select#lang 
-{
-    border: #ce0033;
-    background-color: #fff;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: 950;
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-right: 2%;
+    height:65px;
+    width:100%;
 
 }
+
+.bouton_contact .btn-danger
+{
+    max-width: 200px;
+    padding: 8%;
+}
+.bouton_contact .btn-danger span
+{
+    max-width: 150px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 1%;
+}
+
 
 /*--------------------------------------------Baniere rouge-----------------------------*/
 
